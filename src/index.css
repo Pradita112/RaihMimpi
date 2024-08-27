@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gradient-to-r from-gray-800 via-gray-900 to-black;
+}
+
+.home-container {
+  @apply px-8 flex justify-center items-center bg-gray-700;
+}
+
+.hero-wrapper {
+  @apply w-full max-w-screen-lg;
+}
